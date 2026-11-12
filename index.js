@@ -28,8 +28,10 @@ function megjelen(){
     jatekterElem.insertAdjacentHTML("beforeend", htmlKod)
     const jatekgomb = document.querySelectorAll(".gombok button")
     jatekgomb[0].addEventListener("click", kivalaszt)
+    jatekgomb[1].addEventListener("click", kivalaszt)
+    jatekgomb[2].addEventListener("click", kivalaszt)
 }
 
 function kivalaszt(){
-    console.log("kivalaszt")
+    console.log("event.targer.id")
 }
